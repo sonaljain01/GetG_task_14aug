@@ -33,7 +33,7 @@ function Home(){
 
   return(
     <div className='container'>
-      <h1 className='heading'>List of API's</h1>
+      <h1 className='heading'>List of API</h1>
       {data && data.length > 0 ?(
         <div className="postItem">
           <p>UserId: {data[currentIndex].userId}</p>
